@@ -37,7 +37,8 @@ public class TestingHandler {
     @Before
     public void configureLightFlame(){
         new LightFlame()
-            .runConfiguration(new HandlerConfig().setDefautHandlers(), null);
+            .addConfiguration(new HandlerConfig().setDefautHandlers(), null)
+            .startMock(TestingHandler.class);;
     }
 
     @Test

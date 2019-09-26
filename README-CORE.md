@@ -1,4 +1,4 @@
-# Light Flame
+# Light flame
 
 Ligth flame is a modern Era ultra **light height web framework** based on netty and made for people who like to have more control over the application, since the input of the data entrance, to the output. Everything is highly configurable... So, if you are used to frameworks that make all the things for you like DI, handlers, services and repositories and all the stuffs with a lot of annotations and like it, light flame insn't for you.
 
@@ -58,7 +58,7 @@ TODO: on next release
 
 # Testing
 
-Lightflame provides a simple way to test you application.
+Lightflame provides a simple way to test you application. You can test either if the route works depending on request, and all the steps throw the route.  
 
 ```java
 ${src/test/java/com/init/TestingHandler.java}
