@@ -61,5 +61,5 @@ TODO: on next release
 Lightflame provides a simple way to test you application. You can test either if the route works depending on request, and all the steps throw the route.  
 
 ```java
-${src/test/java/com/init/TestingHandler.java}
+${../flame-examples/misc/src/test/java/init/TestingHandler.java}
 ```
