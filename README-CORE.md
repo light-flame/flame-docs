@@ -33,16 +33,16 @@ Using maven, declare dependency:
 
 
 ```java
-${src/main/java/com/init/App.java}
+${../flame-examples/misc/src/main/java/init/App.java}
 ```
 
 create a class that contain the configuration function, in this example, HandleConfig:
 ```java
-${src/main/java/com/init/HandlerConfig.java}
+${../flame-examples/misc/src/main/java/init/HandlerConfig.java}
 ```
 Now you can declare the simple handler:
 ```java
-${src/main/java/com/init/Handler.java}
+${../flame-examples/misc/src/main/java/init/Handler.java}
 ```
 
 # Routing rules
@@ -50,7 +50,7 @@ ${src/main/java/com/init/Handler.java}
 There is a bunch of existing rules that you can to route to your handler. The **FlameHttpStore** provides a way to store your functions and generate the rule for all.
 
 ```java
-${src/main/java/com/routing/HandlerConfig.java}
+${../flame-examples/misc/src/main/java/routing/HandlerConfig.java}
 ```
 
 # Router middleware
