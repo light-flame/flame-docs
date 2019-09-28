@@ -1,6 +1,6 @@
 # Light flame
 
-Ligth flame is a modern Era ultra **light height web framework** based on netty and made for people who like to have more control over the application, since the input of the data entrance, to the output. Everything is highly configurable... So, if you are used to frameworks that make all the things for you like DI, handlers, services and repositories and all the stuffs with a lot of annotations and like it, light flame insn't for you.
+Ligth flame is a modern Era ultra **light height web framework** based on netty and made for people who  like to have more control over the application, since the input of the data entrance, to the output. Everything is highly configurable... 
 
 If you want to configure all by yourself, and have all control of your code, business logical without infer directly with the framework, so, light flame its perfectly made for you. We also encourage you to use it In a way that your code could be totally readable and decouple from the infra parts.
 
@@ -63,3 +63,19 @@ Lightflame provides a simple way to test you application. You can test either if
 ```java
 ${../flame-examples/misc/src/test/java/init/TestingHandler.java}
 ```
+# Multi port
+
+You can open multiple ports to work. and declare different or the same function to each port. Look at this simple example how it works. Its simple as look like:
+
+```java
+${../flame-examples/misc/src/main/java/multihttp/App.java}
+```
+
+then when you configure the project you just have to declare the port on constructor of **FlameHttpStore** like this:
+
+```java
+${../flame-examples/misc/src/main/java/multihttp/HandlerConfig.java}
+```
+
+# Serving static file
+
