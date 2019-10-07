@@ -25,7 +25,6 @@ Using maven, declare dependency:
 <dependency>
 	<groupId>com.github.light-flame</groupId>
 	<artifactId>lightflame-core</artifactId>
-	<version>0.9.2</version>
 </dependency>
 ```
 
@@ -85,7 +84,7 @@ So, you can chain function **proccess()** either 4 or 5!
 Lightflame provides a simple way to test you application. You can test either if the route works depending on request, and all the steps throw the route.  
 
 ```java
-${../flame-examples/misc/src/test/java/init/TestingHandler.java}
+${../flame-examples/helloworld/src/test/java/com/helloworld/TestingHelloWorld.java}
 ```
 ## Multi port
 
